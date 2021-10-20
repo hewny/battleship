@@ -1,0 +1,43 @@
+:root {
+    --value: 16;
+}
+
+.status {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: grid;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: repeat(var(--value), auto);
+    grid-template-rows: repeat(var(--value), auto);
+    row-gap: 1px;
+    column-gap: 1px;
+    border-style: solid;
+    background-color: black;
+}
+
+.container2 {
+    display: grid;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: repeat(var(--value), auto);
+    grid-template-rows: repeat(var(--value), auto);
+    row-gap: 1px;
+    column-gap: 1px;
+    border-style: solid;
+    background-color: black;
+}
+
+.box {
+    background-color: white;
+    width: auto;
+    height: auto;
+}
